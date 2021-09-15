@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Parallel Tests]" parallel="tests">
+  <test thread-count="3" name="Windows+MicrosoftEdge Test(failed)" parallel="tests">
+    <parameter name="browser" value="Microsoft Edge"/>
+    <parameter name="version" value="93"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://cookbook.seleniumacademy.com/bmicalculator.html"/>
+    <classes>
+      <class name="SeGridTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testBMICalculator"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- SeGridTest -->
+    </classes>
+  </test> <!-- Windows+MicrosoftEdge Test(failed) -->
+  <test thread-count="3" name="Windows+Chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="93"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://cookbook.seleniumacademy.com/bmicalculator.html"/>
+    <classes>
+      <class name="SeGridTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testBMICalculator"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- SeGridTest -->
+    </classes>
+  </test> <!-- Windows+Chrome Test(failed) -->
+</suite> <!-- Failed suite [Parallel Tests] -->

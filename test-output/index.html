@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Parallel_Tests">
+              <span class="suite-name border-skipped">Parallel Tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Parallel_Tests">
+                    <span>C:\Users\DELL\eclipse-workspace\ParallelTesting\src\conf.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Parallel_Tests">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Parallel_Tests">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Parallel_Tests">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Parallel_Tests">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Parallel_Tests">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Parallel_Tests">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,  2 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Parallel_Tests" class="hide-methods skipped suite-Parallel_Tests"> (hide)</a> <!-- hide-methods skipped suite-Parallel_Tests -->
+                      <a href="#" panel-name="suite-Parallel_Tests" class="show-methods skipped suite-Parallel_Tests"> (show)</a> <!-- show-methods skipped suite-Parallel_Tests -->
+                    </span>
+                    <div class="method-list-content skipped suite-Parallel_Tests">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_Tests" title="SeGridTest" hash-for-method="testBMICalculator">testBMICalculator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_Tests" title="SeGridTest" hash-for-method="testBMICalculator">testBMICalculator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Parallel_Tests -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Parallel_Tests" class="hide-methods passed suite-Parallel_Tests"> (hide)</a> <!-- hide-methods passed suite-Parallel_Tests -->
+                      <a href="#" panel-name="suite-Parallel_Tests" class="show-methods passed suite-Parallel_Tests"> (show)</a> <!-- show-methods passed suite-Parallel_Tests -->
+                    </span>
+                    <div class="method-list-content passed suite-Parallel_Tests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_Tests" title="SeGridTest" hash-for-method="testBMICalculator">testBMICalculator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Parallel_Tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Parallel_Tests" class="panel Parallel_Tests">
+          <div class="suite-Parallel_Tests-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">SeGridTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBMICalculator">
+                  </a> <!-- testBMICalculator -->
+                  <span class="method-name">testBMICalculator</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {browserName: MicrosoftEdge, platform: WINDOWS, version: 93}
+Command duration or timeout: 148 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;K-ADNANE&apos;, ip: &apos;192.168.133.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at SeGridTest.setUp(SeGridTest.java:47)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities {browserName: MicrosoftEdge, platform: WINDOWS, version: 93}
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:831)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(test BMI Calculator)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBMICalculator">
+                  </a> <!-- testBMICalculator -->
+                  <span class="method-name">testBMICalculator</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;K-ADNANE&apos;, ip: &apos;192.168.133.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at SeGridTest.setUp(SeGridTest.java:47)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException: timeout
+	at okio.Okio$4.newTimeoutException(Okio.java:232)
+	at okio.AsyncTimeout.exit(AsyncTimeout.java:285)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:241)
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:355)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:227)
+	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215)
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at org.openqa.selenium.remote.internal.OkHttpClient$Factory$1.lambda$createClient$1(OkHttpClient.java:152)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	... 23 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at okio.Okio$2.read(Okio.java:140)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
+	... 50 more
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(test BMI Calculator)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_Tests-class-skipped -->
+          <div class="suite-Parallel_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SeGridTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBMICalculator">
+                  </a> <!-- testBMICalculator -->
+                  <span class="method-name">testBMICalculator</span>
+                  <em>
+(test BMI Calculator)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_Tests-class-passed -->
+        </div> <!-- panel Parallel_Tests -->
+        <div panel-name="test-xml-Parallel_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\DELL\eclipse-workspace\ParallelTesting\src\conf.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Parallel Tests&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Windows+Chrome Test&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;93&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://cookbook.seleniumacademy.com/bmicalculator.html&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SeGridTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Windows+Chrome Test --&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Windows+Firefox Test&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;91&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://cookbook.seleniumacademy.com/bmicalculator.html&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SeGridTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Windows+Firefox Test --&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Windows+MicrosoftEdge Test&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Microsoft Edge&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;93&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://cookbook.seleniumacademy.com/bmicalculator.html&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SeGridTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Windows+MicrosoftEdge Test --&gt;
+&lt;/suite&gt; &lt;!-- Parallel Tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Parallel_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Parallel Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Windows+Chrome Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Windows+Firefox Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Windows+MicrosoftEdge Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Parallel_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Parallel Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Parallel_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Parallel Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Parallel_Tests');
+function tableData_Parallel_Tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testBMICalculator')
+data.setCell(0, 2, 'SeGridTest')
+data.setCell(0, 3, 557);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testBMICalculator')
+data.setCell(1, 2, 'SeGridTest')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testBMICalculator')
+data.setCell(2, 2, 'SeGridTest')
+data.setCell(2, 3, 0);
+window.suiteTableData['Parallel_Tests']= { tableData: data, tableDiv: 'times-div-Parallel_Tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 hours</span>
+              <div id="times-div-Parallel_Tests">
+              </div> <!-- times-div-Parallel_Tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Parallel_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Parallel Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Parallel_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Parallel_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeGridTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(Windows, chrome, 93, http://cookbook.seleniumacademy.com/bmicalculator.html)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Windows, firefox, 91, http://cookbook.seleniumacademy.com/bmicalculator.html)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(Windows, Microsoft Edge, 93, http://cookbook.seleniumacademy.com/bmicalculator.html)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testBMICalculator</span>
+                <span class="method-start">1225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1240 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">testBMICalculator</span>
+                <span class="method-start">9222 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9782 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">testBMICalculator</span>
+                <span class="method-start">10801169 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10801180 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

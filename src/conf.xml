@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Parallel Tests" verbose="1" thread-count="3" parallel="tests">
+  <tests>
+        
+
+    <test name="Windows+Chrome Test">
+      <parameters>
+        <parameter name="platform" value="Windows" />
+        <parameter name="browser" value="chrome" />
+        <parameter name="version" value="93" />
+        <parameter name="url" value="http://cookbook.seleniumacademy.com/bmicalculator.html" />
+      </parameters>
+      <classes>
+        <class name="SeGridTest" />
+      </classes>
+    </test>
+            <test name="Windows+Firefox Test">
+      <parameters>
+        <parameter name="platform" value="Windows" />
+        <parameter name="browser" value="firefox" />
+        <parameter name="version" value="91" />
+        <parameter name="url" value="http://cookbook.seleniumacademy.com/bmicalculator.html" />
+      </parameters>
+      <classes>
+        <class name="SeGridTest" />
+      </classes>
+    </test>
+
+
+       
+        
+  </tests>
+</suite>
+
+
